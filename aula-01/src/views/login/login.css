@@ -1,0 +1,49 @@
+.container{
+    height: 100vh;
+    background-color: #1c1c1c;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 15rem;
+    background-color: darkviolet;
+    border-radius: 10px;
+
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.buttonGroup{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+button{
+    border-radius: 7px;
+    width: 80px;
+    padding: 10px;
+
+    cursor: pointer;
+}

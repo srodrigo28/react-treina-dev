@@ -1,0 +1,41 @@
+.container{
+    height: 100vh;
+    background-color: #1c1c1c;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 15rem;
+
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: darkviolet;
+}
+h1{
+    color: #fff;
+    margin-bottom: 2rem;
+}
+input{
+    border-radius: 7px;
+    padding: 10px;
+}
+.buttonGroup{
+    display: flex;
+    gap: 20px;
+}
+button{
+    border-radius: 7px;
+    padding: 10px;
+    width: 77px;
+
+    cursor: pointer;
+}
